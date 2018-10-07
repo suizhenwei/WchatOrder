@@ -1,0 +1,273 @@
+{
+  "status": 0,
+  "message": "query ok",
+  "request_id": "4f05e026-c39c-11e8-a606-6c0b84d75b0d",
+  "result": {
+    "location": {
+      "lat": 40.041152,
+      "lng": 116.300325
+    },
+    "address": "北京市海淀区唐家岭路57号",
+    "formatted_addresses": {
+      "recommend": "海淀区八维研修学院(第二校区)",
+      "rough": "海淀区八维研修学院(第二校区)"
+    },
+    "address_component": {
+      "nation": "中国",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "海淀区",
+      "street": "唐家岭路",
+      "street_number": "唐家岭路57号"
+    },
+    "ad_info": {
+      "nation_code": "156",
+      "adcode": "110108",
+      "city_code": "156110000",
+      "name": "中国,北京市,北京市,海淀区",
+      "location": {
+        "lat": 40.041153,
+        "lng": 116.300323
+      },
+      "nation": "中国",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "海淀区"
+    },
+    "address_reference": {
+      "crossroad": {
+        "id": "561480",
+        "title": "上地西路/东北旺路(路口)",
+        "location": {
+          "lat": 40.044361,
+          "lng": 116.301918
+        },
+        "_distance": 376.6,
+        "_dir_desc": "南"
+      },
+      "town": {
+        "id": "110108022",
+        "title": "上地街道",
+        "location": {
+          "lat": 40.041153,
+          "lng": 116.300323
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      },
+      "street_number": {
+        "id": "18293991668709537992",
+        "title": "唐家岭路57号",
+        "location": {
+          "lat": 40.041698,
+          "lng": 116.300163
+        },
+        "_distance": 0,
+        "_dir_desc": ""
+      },
+      "street": {
+        "id": "10060319414492846822",
+        "title": "唐家岭路",
+        "location": {
+          "lat": 40.04063,
+          "lng": 116.29834
+        },
+        "_distance": 170.9,
+        "_dir_desc": "东"
+      },
+      "landmark_l2": {
+        "id": "18293991668709537992",
+        "title": "八维研修学院(第二校区)",
+        "location": {
+          "lat": 40.041698,
+          "lng": 116.300163
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      }
+    },
+    "poi_count": 10,
+    "pois": [
+      {
+        "id": "18293991668709537992",
+        "title": "八维研修学院(第二校区)",
+        "address": "北京市海淀区唐家岭路57号",
+        "category": "教育学校:大学",
+        "location": {
+          "lat": 40.041698,
+          "lng": 116.300163
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 0,
+        "_dir_desc": "内"
+      },
+      {
+        "id": "13540047316172084011",
+        "title": "瓜子二手车直卖网",
+        "address": "北京市海淀区软件园南路75号八维学院科技楼4号楼",
+        "category": "汽车:二手车交易市场",
+        "location": {
+          "lat": 40.041973,
+          "lng": 116.299271
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 128,
+        "_dir_desc": "东南"
+      },
+      {
+        "id": "12268154548941832831",
+        "title": "完美娱乐会所",
+        "address": "北京市海淀区完美风暴KTV(八维研修学院东)",
+        "category": "娱乐休闲:KTV",
+        "location": {
+          "lat": 40.04195,
+          "lng": 116.30307
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 250.3,
+        "_dir_desc": "西"
+      },
+      {
+        "id": "9677077533541574493",
+        "title": "北华夜总会",
+        "address": "北京市海淀区上地街道东北旺东路52号",
+        "category": "娱乐休闲:夜总会",
+        "location": {
+          "lat": 40.042992,
+          "lng": 116.302643
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 284.5,
+        "_dir_desc": "西南"
+      },
+      {
+        "id": "11816643375581932380",
+        "title": "爱麦主题时尚KTV",
+        "address": "北京市海淀区东北旺路52号联创大厦旁",
+        "category": "娱乐休闲:KTV",
+        "location": {
+          "lat": 40.043201,
+          "lng": 116.30246
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 291.8,
+        "_dir_desc": "西南"
+      },
+      {
+        "id": "7775966238825553797",
+        "title": "九头鸟酒家(上地店)",
+        "address": "北京市海淀区上地西路8号(八维研修学院(第二校区)附近)",
+        "category": "美食:中餐厅:湘菜",
+        "location": {
+          "lat": 40.042721,
+          "lng": 116.301208
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 190.1,
+        "_dir_desc": "西南"
+      },
+      {
+        "id": "9307213800642987242",
+        "title": "八维学校篮球场",
+        "address": "北京市海淀区上地软件园南路57号",
+        "category": "运动健身:篮球场",
+        "location": {
+          "lat": 40.04092,
+          "lng": 116.298805
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 112.1,
+        "_dir_desc": "东"
+      },
+      {
+        "id": "3606847483095696214",
+        "title": "北京市八维学院足球场",
+        "address": "北京市海淀区上地软件园南路57号",
+        "category": "运动健身:足球场",
+        "location": {
+          "lat": 40.042267,
+          "lng": 116.300102
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 125.4,
+        "_dir_desc": "南"
+      },
+      {
+        "id": "17508123705716198872",
+        "title": "潇湘府(上地店)",
+        "address": "北京市海淀区东北旺路2号联创大厦1-3楼",
+        "category": "美食:中餐厅:湘菜",
+        "location": {
+          "lat": 40.0438,
+          "lng": 116.301918
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 324.5,
+        "_dir_desc": "西南"
+      },
+      {
+        "id": "15811648045152904064",
+        "title": "联创大厦",
+        "address": "北京市海淀区东北旺路2",
+        "category": "房产小区:商务楼宇",
+        "location": {
+          "lat": 40.043362,
+          "lng": 116.302353
+        },
+        "ad_info": {
+          "adcode": "110108",
+          "province": "北京市",
+          "city": "北京市",
+          "district": "海淀区"
+        },
+        "_distance": 259.3,
+        "_dir_desc": "西南"
+      }
+    ]
+  }
+}

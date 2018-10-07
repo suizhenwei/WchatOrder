@@ -1,0 +1,158 @@
+@import "common.scss";
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+$bg:background;
+html,
+body {
+    @include num(100%, 100%);
+}
+#app{
+    @include num(100%, 100%);
+    font-size: px2rem(14px)
+}
+.order{
+    @include num(100%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+.order-top{
+    @include num(100%, px2rem(70px));
+    background: #fff;
+    dl{
+        @include num(100%, 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom:1px solid #ccc;
+        box-sizing: border-box;
+        dt{
+            flex:2;
+            p{
+                @include num(px2rem(48px),px2rem(48px));
+                margin:0 auto;
+                img{
+                    @include num(100%,100%);
+                }
+            }
+        }
+        dd{
+            flex:8;
+            height:100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            div{
+                flex:8;
+                h4{
+                    font-size: px2rem(16px);
+                    font-weight: 500;
+                }
+                h6{
+                    font-size: px2rem(12px);
+                    color:#ccc;
+                    margin-top:px2rem(3px);
+                }
+            }
+            span{
+                flex:2;
+                height:100%;
+                img{
+                    @include num(100%,auto);
+                    font-size: px2rem(10px);
+                }
+            }
+        }
+    }
+}
+.order-bottom{
+  display: flex;
+  flex:1;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+}
+.menu-left {
+    background: #f3f5f7;
+    color:#5C5E5B;
+    li{
+        font-size: px2rem(14px);
+        text-align: center;
+        padding:px2rem(20px) px2rem(10px);
+        border-bottom:1px solid #ccc;
+        font-weight: 800;
+        &.current {
+            background: #fff;
+        }
+    }
+    li:nth-last-child(1){
+        border:none;
+    }
+}
+.menu-right{
+    background: #fff;
+    padding:px2rem(18px) 0 0 px2rem(12px);
+    .food-list {
+        .title {
+          padding-left: px2rem(8px);
+          height: px2rem(22px);
+          line-height: px2rem(22px); 
+          border-left: 2px solid #41BA73;
+          font-size: px2rem(12px);
+          color: #5C5E5B;
+          font-weight: 600;
+        }
+        .food-item {
+            display: flex;
+            padding: px2rem(8px) px2rem(15px) px2rem(6px) 0;
+            border-bottom: 1px solid #ccc;
+            .icon {
+                flex: 0 0 px2rem(57px);
+                margin:px2rem(4px)  px2rem(10px)  px2rem(10px) 0;
+                img{
+                    @include num(100%,100%)
+                }
+            }
+            .content {
+                flex: 1;
+                .name {
+                    margin: px2rem(5px) 0 px2rem(7px) 0;
+                    font-size: px2rem(14px);
+                    line-height: px2rem(20px);
+                    color: rgb(7, 17, 27);
+                    font-weight: 800;
+                }
+                .desc{
+                    font-size: px2rem(10px);
+                    line-height: px2rem(10px);
+                    color: rgb(147, 153, 159);
+                }
+                .price {
+                    font-weight: 700;
+                    line-height: px2rem(24px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .now {
+                        margin-right: 8px;
+                        font-size: px2rem(14px);
+                        color: rgb(240, 20, 20);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@mixin num($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin radius($i) {
+    display:inline-block;
+    width: $i;
+    height: $i;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@mixin flex($j:space-between) {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: $j;
+    -webkit-justify-content: $j;
+    align-items: center;
+    -webkit-align-items: center;
+}
+@mixin text {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@mixin text1($num) {
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@mixin btnCol($color) {
+    border-radius: 15px;
+    background: $color;
+    border:1px solid $color;
+    outline: 0;
+    color:#fff;
+}
+$browser-default-font-size: 37.5px !default;
+$baseline-px:37.5px;
+@function px2rem($px-values) {
+    $baseline-rem: $baseline-px / 1rem * 1;
+    $px-values: $px-values / $baseline-rem;
+    @return $px-values;
+}
