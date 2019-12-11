@@ -94,10 +94,4 @@ npm test
 ```
 > 部分截图
 
-![image](./src/assets/img/1list.jpg)
-![image](./src/assets/img/2storedetail.jpg)
-![image](./src/assets/img/3fooddetail.jpg)
-![image](./src/assets/img/payprice.jpg)
-![image](./src/assets/img/NearbyShop.jpg)
-![image](./src/assets/img/ditu.jpg)
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
